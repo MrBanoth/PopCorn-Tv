@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PopcornTV
 
 A Netflix-inspired streaming platform built with Next.js and TypeScript. Browse movies from different categories, watch trailers, and save your favorites to your personal list.
@@ -152,3 +153,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Unsplash](https://unsplash.com/) - For placeholder images
 - [YouTube](https://www.youtube.com/) - For movie trailers
 - [Netflix](https://www.netflix.com/) - For design inspiration 
+=======
+# PopCorn-Tv
+>>>>>>> bf1402431bd055b8b326e28bfe1bac48b5c9002c

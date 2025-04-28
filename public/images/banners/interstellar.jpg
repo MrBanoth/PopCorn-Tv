@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>Wallpapersden Error 500</title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        var GA_LOCAL_STORAGE_KEY = 'ga:clientId';
+        if (window.localStorage) {
+            ga('create', 'UA-101206242-2', {
+                'storage': 'none',
+                'clientId': localStorage.getItem(GA_LOCAL_STORAGE_KEY)
+            });
+            ga(function (tracker) {
+                localStorage.setItem(GA_LOCAL_STORAGE_KEY, tracker.get('clientId'));
+            });
+        } else {
+            ga('create', 'UA-101206242-2', 'auto');
+        }
+        ga('send', 'event', 'Error', '500 Error', window.location.href);
+
+        window.setTimeout(function () {
+            location.href = "https://wallpapersden.com/";
+        }, 1000);
+    </script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            color: #B0BEC5;
+            display: table;
+            font-weight: 100;
+            font-family: 'Lato';
+        }
+
+        .container {
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .content {
+            text-align: center;
+            display: inline-block;
+        }
+
+        .title {
+            font-size: 156px;
+        }
+
+        .quote {
+            font-size: 36px;
+        }
+
+        .explanation {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <div class="title">500</div>
+        <div class="quote">It's not you, it's me.</div>
+        <div class="explanation">
+            <br>
+            <small>
+                                Undefined offset: 1
+            </small>
+        </div>
+    </div>
+</div>
+</body>
+</html>
